@@ -1,4 +1,5 @@
 import React from 'react';
+import RepoList from './RepoList/RepoList';
 import '../css/App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         </p>
         <button
           className="App-button"
+          onClick={RepoList}
         >
           <a
             className="App-link"

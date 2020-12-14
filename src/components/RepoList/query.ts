@@ -9,5 +9,3 @@ export const QUERY_LAUNCH_LIST = gql`
     }
   }
 `;
-
-console.log(QUERY_LAUNCH_LIST);
